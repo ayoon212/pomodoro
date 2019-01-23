@@ -44,7 +44,7 @@ export default class App extends React.Component {
 
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>🌶 It's Pomodoro Time 🌶</Text>
+        <Text style={styles.heading}>🍅 It's Pomodoro Time 🍅</Text>
         <Text style={styles.main}>{timeFormat}</Text>
         <View style={styles.button}>
           <PomodoroButton onButtonPress={this.onButtonPress} status={this.state.status} />
